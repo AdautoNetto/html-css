@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabelas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+        margin: 10px;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    col.cidade{
+        background-color: red;
+        
+    }
+</style>
+<body>
+    <h1>Exercicios de tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>32</td>
+            <td>policia</td>
+        </tr>
+        <tr>
+            <td>Fatika</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Cozinheira</td>
+        </tr>
+        <tr>
+            <td>Ana Paula</td>
+            <td>F</td>
+            <td>40</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>jorge</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Adauto Netto</td>
+            <td>M</td>
+            <td>20</td>
+            <td>TI</td>
+        </tr>
+    </table>
+</body>
+</html>
