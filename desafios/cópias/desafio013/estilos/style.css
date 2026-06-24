@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+article {
+    width: 90%;
+    max-width: 520px;
+    margin: 80px auto;
+    color: white;
+    
+}
+
+section.sedan {
+    background-color:hsl(31, 77%, 52%);
+    padding: 70px 50px 80px 50px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section.suv{
+    background-color:hsl(184, 100%, 22%);
+    padding: 80px 50px;
+}
+
+section.luxo{
+    background-color:hsl(179, 100%, 13%);
+    padding: 80px 50px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+img {
+    margin-bottom: 35px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.774);
+    line-height: 33px;
+    font-size: 19px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+}
+
+a{
+    background-color: white;
+    text-decoration: none;
+    padding: 19px 45px;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+section.sedan a{
+    color: hsl(31, 77%, 52%);
+    
+}
+
+section.sedan a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+section.suv a{
+    color:hsl(184, 100%, 22%);
+}
+
+section.suv a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+section.luxo a{
+    color:hsl(179, 100%, 13%);
+}
+
+section.luxo a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}

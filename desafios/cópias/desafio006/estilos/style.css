@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/*
+## Colors
+
+    - Yellow: hsl(47, 88%, 63%)
+
+    - White: hsl(0, 0%, 100%)
+
+    - Gray 500: hsl(0, 0%, 42%)
+    - Gray 950: hsl(0, 0%, 7%)
+
+    - Mobile: 375px
+    - Desktop: 1440px
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main{
+    background-color: white;
+    width:460px;
+    max-width: 660px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 6px  black;
+}
+
+article#conteudo div#foto img{
+    border-radius: 10px;
+    margin: 7px;
+    width: 423px;
+}
+
+section#textos h3 {
+    background-color:hsl(47, 88%, 63%);
+    margin-left: 20px;
+    width: 100px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 25px;
+}
+
+section#textos time {
+    margin-left: 20px;
+}
+
+section#textos h2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+section#textos h2:hover{
+    cursor: pointer;
+    color:hsl(47, 88%, 63%);
+}
+
+section#textos p {
+    color: rgba(0, 0, 0, 0.726);
+    margin-left: 20px;
+    margin: 25px 60px 50px 20px;
+    font-size: 19px; 
+}
+
+section#perfil {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+section#perfil img{
+    width: 53px;
+}
+
+section#perfil h4 {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+section#perfil h4:hover {
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}

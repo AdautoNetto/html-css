@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color:hsl(185, 75%, 39%);
+
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    background-size: 500px, 500px;
+
+    background-position: top -200px left -200px, bottom -200px right -200px;
+    
+    display: flex;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+article {
+    background-color: white;
+    border-radius: 10px;
+    width: 90vw;
+    max-width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+}
+div.fundo {
+    width: 100%;
+}
+div.fundo img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    width: 100%;
+}
+
+article > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    border: 5px solid white;
+    margin-top: -50px;
+
+    align-self: center;
+    justify-self: center; 
+}
+
+div.perfil {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+div.perfil p.nome{
+    font-weight: 600;
+    font-size: 19px;
+}
+
+div.perfil p.idade {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+p.cidade{
+    color: rgba(0, 0, 0, 0.678);
+
+    margin-bottom: 25px;
+}
+
+div.rodape {
+    border-top: 1px solid rgba(0, 0, 0, 0.178);
+    width: 100%;
+    padding-top: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+div.rodape p {
+    color: rgba(0, 0, 0, 0.74);
+    
+}

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*  - Mobile: 375px
+    - Desktop: 1440px
+    ## Colors
+
+        - Green: hsl(75, 94%, 57%)
+
+        - White: hsl(0, 0%, 100%)
+
+        - Grey 700: hsl(0, 0%, 20%)
+        - Grey 800: hsl(0, 0%, 12%)
+        - Grey 900: hsl(0, 0%, 8%)
+
+        ## Typography
+
+        ### Body Copy
+
+        - Font size (paragraph): 14px
+
+        ### Font
+
+        - Family: [Inter](https://fonts.google.com/specimen/Inter)
+        - Weights: 400, 600, 700
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    padding-bottom: 25px;
+    max-width: 350px;
+    width: 90%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+section#foto img{
+    margin-top: 25px;
+    margin-left: 115px;
+    border-radius: 50%;
+    width: 130px;
+}
+
+section#descrição h1{
+    color: white;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 29px;
+}
+
+section#descrição h3 {
+    color:hsl(75, 94%, 57%) ;
+    text-align: center;
+    margin-top: 7px;
+}
+
+section#descrição p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    background-color:hsl(0, 0%, 20%);
+    display: block;
+    margin-top: 13px;
+    width: 80%;
+    padding: 11px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+   cursor: pointer; 
+   transition: 0.7s;
+   background-color:hsl(75, 94%, 57%) ;
+   color:hsl(0, 0%, 8%) ;
+}
