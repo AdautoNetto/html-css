@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+main{
+    background-color:hsl(300, 24%, 96%);
+    width: 90vw;
+    max-width: 470px;
+    padding-bottom: 70px;
+}
+
+h1 {
+    color:hsl(300, 43%, 22%);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    margin: 75px 40px 40px 25px;
+}
+
+main > p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 550;
+    font-size: 18px;
+    margin: 0px 20px 30px 20px;
+    line-height: 22px;
+}
+
+div.caixa {
+    background-color: hsla(302, 10%, 53%, 0.219);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 55px;
+    margin-left: 20px;
+
+    height: 100px;  
+    
+    display: flex;
+    
+    align-items: center;
+    justify-content: center; 
+    justify-items: center;
+    flex-direction: column;
+}
+
+div.caixa div.stray {
+    margin-bottom: 10px;
+}
+
+div.caixa div.stray img {
+    margin-right: 5px;
+}
+
+div.caixa p {
+    color:hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 21px;
+}
+
+div.todas {
+    background-color: hsl(300, 43%, 22%);
+    margin: 0px 20px 30px 20px;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+div.todas div.perfil {
+    display: flex;
+    gap: 30px;
+}
+
+div.todas img {
+    border-radius: 50%;
+    width: 55px;
+    margin-bottom: 20px;
+}
+
+div.todas p.nome {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+div.todas p.ver {
+    color:hsl(333, 78%, 70%);
+    font-size: 17px;
+}
+
+div.todas p.com {
+    color: white;
+    line-height: 27px;
+    text-indent: 5px;
+    font-weight: 550;
+}

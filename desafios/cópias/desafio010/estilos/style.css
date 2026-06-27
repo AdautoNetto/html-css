@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color:hsl(216, 50%, 16%);
+    width: 90vw;
+    max-width: 449px;
+    padding: 27px;
+    border-radius: 15px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.288);
+}
+
+div.imagem {
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+div.imagem img {
+    border-radius: 10px;
+    width: 80vw;
+    max-width: 400px;
+    margin: 0 auto; 
+    height: auto;
+}
+
+div.imagem div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 247, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+div.imagem:hover .overlay {
+    opacity: 1;
+}
+
+div.texto {
+    color: white;
+    margin-top: 30px;
+}
+
+div.texto h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+div.texto p.descricao {
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+div.moeda {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.moeda div.eth {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}
+
+div.moeda div.tempo {
+    color: rgba(255, 255, 255, 0.596);
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}
+
+hr {
+    border: none; 
+    height: 1px; 
+    background-color: #2e405a; 
+    margin: 20px 0;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+footer img {
+    width: 55px;
+    border: 1px solid white;
+    border-radius: 50%;
+}

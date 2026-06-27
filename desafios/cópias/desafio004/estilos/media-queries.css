@@ -1,0 +1,13 @@
+@media  screen and (min-width:700px) {
+    main {
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        max-width: 800px;
+    }
+
+
+    section.teste{
+        margin: 30px;
+    }
+}

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color:hsl(225, 100%, 94%) ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color:hsl(225, 100%, 98%) ;
+    border-radius: 15px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.116);
+    width: 90vw;
+    max-width: 450px;
+    margin-top: 70px;
+}
+
+article > img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.774);
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.527);
+    line-height: 27px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+
+div.plano {
+    background-color:hsla(225, 100%, 94%, 0.445);
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    gap: 25px;
+}
+
+div.plano img {
+    margin-left: 15px;
+}
+
+div.plano div.texto {
+    justify-items: center;
+}
+
+div.plano p.bold {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 0px;
+}
+
+div.plano p.normal {
+    margin: 0px;
+}
+
+div.plano a {
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+div.plano a:hover{
+    text-decoration: none;
+}
+
+div.botoes {
+    margin:25px auto;
+    width: 70%;
+}
+
+div.botoes button.pagamento {
+    width: 100%;
+    background-color:hsl(245, 75%, 52%);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    height: 50px;
+    border: none;
+    margin-bottom: 2px;
+}
+
+div.botoes button.pagamento:hover {
+    background-color: hsla(245, 75%, 52%, 0.678);
+    cursor: pointer;
+}
+
+div.botoes button.cancelar {
+    width: 100%;
+    height: 50px;
+    background-color:hsl(225, 100%, 98%) ;
+    border: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+div.botoes button.cancelar:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
