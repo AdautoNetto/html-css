@@ -15,17 +15,20 @@
             background-color: skyblue;
             border: 1px solid black;
             text-align: center;
+            flex-basis: 150px; 
         }
         #a{
-
-            flex: 1 0 200px ;
+            flex-shrink: 2;
+            flex-grow: 0;
         }
         
         #b{
-            flex: 1 1 150px; 
+            flex-shrink: 0;
+            flex-grow: 2;
         }
         #c{
-            flex: 1 8 auto;
+            flex-shrink: 1;
+            flex-grow: 1;
         }
     </style>
 </head>
