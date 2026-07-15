@@ -12,7 +12,6 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin: 0;
 }
 
 main{
@@ -65,29 +64,24 @@ form > span.material-symbols-outlined{
 
 footer {
     background-color: black;
-    min-height: 80px;
-    padding: 10px 0px;
+    min-height: 70px;
+    padding: 5px 0px;
     width: 100%;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 2px;
     
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
 }
 
-footer div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
+
 
 footer p {
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     white-space: nowrap;
 }
 
