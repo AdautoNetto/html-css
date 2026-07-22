@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+:root{
+    --branco01: hsl(0, 0%, 100%);
+
+    --branco02: hsl(32, 70%, 89%);
+    --branco03: hsl(30, 18%, 87%);
+    --cinza: hsl(30, 10%, 34%);
+    --preto: hsl(24, 5%, 18%);
+
+    --marrom: hsl(14, 45%, 36%);
+
+    --rosa01: hsl(332, 51%, 32%);
+    --rosa02: hsl(330, 100%, 98%); 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;   
+}
+
+h1, h2 {
+    font-family: serif;
+}
+
+h1{
+    font-size: 42px;
+    color: var(--preto);
+}
+
+p {
+    color: var(--cinza);
+    line-height: 1.5em;
+}
+
+hr{
+    opacity: 0.7;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--branco02);
+    font-family: sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: var(--branco01);
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.imagem img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+div.conteudo{
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+div.time{
+    background-color: var(--rosa02);
+    padding: 20px;
+}
+
+div.time h2{
+    color: var(--rosa01);
+}
+
+div.time ul {
+    line-height: 2em;
+    padding-left: 25px;
+}
+
+div.time li {
+    color: var(--preto);
+    font-size: 18px;
+    padding-left: 1em;
+}
+
+div.time li::marker{
+    color: var(--rosa01);
+}
+
+div.ingredientes h2{
+    color: var(--marrom);
+    font-size: 35px;
+    margin-bottom: 19px;
+}
+
+div.ingredientes ul {
+    line-height: 2em;
+    padding-left: 25px;
+}
+
+div.ingredientes li {
+    color: var(--preto);
+    font-size: 17.5px;
+    padding-left: 1.4em;
+}
+
+div.ingredientes li::marker{
+    color: var(--marrom);
+}
+
+div.instrucoes h2{
+    color: var(--marrom);
+    font-size: 35px;
+    margin-bottom: 19px;
+}
+
+div.instrucoes ol {
+    line-height: 1.3em;
+    padding-left: 25px;
+}
+
+div.instrucoes li{
+    color: var(--preto);
+    font-size: 17px;
+    padding-left: 1.1em;
+    margin-bottom: 10px;
+}
+
+div.nutricao{
+    width: 100%;
+}
+
+div.nutricao h2{
+    color: var(--marrom);
+    font-size: 35px;
+    margin-bottom: 19px;
+}
+
+div.nutricao p {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+div.nutricao table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+div.nutricao tr {
+    border-bottom: 1px solid var(--branco03);
+}
+
+div.nutricao td {
+    padding: 16px 0px;
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+div.nutricao td.brown {
+    text-align: right; 
+    font-weight: bold;
+    color: var(--marrom);
+    padding-right: 25px; 
+}
