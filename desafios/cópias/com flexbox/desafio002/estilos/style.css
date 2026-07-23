@@ -1,0 +1,21 @@
+@charset "UT-8";
+
+:root{
+    --vernde: hsl(75, 94%, 57%);
+
+    --branco: hsl(0, 0%, 100%);
+
+    --cinza01: hsl(0, 0%, 20%);
+    --cinza02: hsl(0, 0%, 12%);
+    --cinza03: hsl(0, 0%, 8%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
