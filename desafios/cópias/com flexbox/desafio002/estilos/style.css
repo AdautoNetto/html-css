@@ -18,4 +18,67 @@
 
 body{
     min-height: 100vh;
+    background-color: var(--cinza03);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main{
+    background-color: var(--cinza02);
+    border-radius: 13px;
+    box-shadow: 2px 2px  rgba(0, 0, 0, 0.383);
+    width: 90%;
+    max-width: 400px;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: var(--branco);
+    font-size: 29px;
+}
+
+p.cep{
+    color: var(--vernde);
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+
+p.curriculo{
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.757);
+    margin-bottom: 8px;
+}
+
+a{
+    color: var(--branco);
+    text-decoration: none;
+    text-align: center;
+    font-size: 19px;
+    background-color: var(--cinza01);
+    border-radius: 10px;
+    width: 88%;
+    padding: 13px;
+    margin-top: 14px;
+}
+a:hover{
+    background-color: var(--vernde);
+    transition: 01s;
+    font-size: 20px;
+    padding: 14px;
 }
