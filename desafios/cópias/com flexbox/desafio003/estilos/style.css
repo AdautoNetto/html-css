@@ -17,6 +17,7 @@
 
 body{
     min-height: 100vh;
+    background-color: var(--amarelo);
 
     display: flex;
     flex-direction: column;
@@ -24,3 +25,64 @@ body{
     align-items: center;
 }
 
+main{
+    border-radius: 15px;
+    width: 85%;
+    max-width: 350px;
+    border: 1px solid black;
+    box-shadow: 7px 7px 1px black;
+    background-color: var(--branco);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+div.capa img{
+    border-radius: 12px;
+    width: 100%;
+}
+
+p.preenchido{
+    background-color: var(--amarelo);
+    padding: 8px 15px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+p.publi{
+    align-self: flex-start;
+}
+
+h2{
+    align-self: flex-start;
+}
+
+h2:hover{
+    color: var(--amarelo);
+    cursor: pointer;
+}
+
+p.descricao{
+    color: var(--cinza01);
+    line-height: 1.5em;
+}
+
+div.perfil{
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+div.perfil img{
+    width: 45px;
+    height: 45px;
+}
+
+div.perfil p{
+    font-size: 19px;
+}
