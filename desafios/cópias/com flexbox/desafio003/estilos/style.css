@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+:root{
+    --amarelo: hsl(47, 88%, 63%);
+
+    --branco: hsl(0, 0%, 100%);
+
+    --cinza01: hsl(0, 0%, 42%);
+    --cinza02: hsl(0, 0%, 7%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var();
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
