@@ -106,9 +106,10 @@ div.circulo{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top
+    : 20px;
     
     background-color: aqua;
-
 }
 
 div.resumo p.sum{
