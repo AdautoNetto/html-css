@@ -1,0 +1,24 @@
+@media screen and (min-width: 600px) {
+    body{
+        justify-content: center;}
+    main{
+        display: flex;
+        flex-direction: row;
+        border-radius: 30px;
+        max-width: 760px;
+        box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.08);
+    }
+
+    div.resultado{
+        border-radius: 30px;
+    }
+
+    div.resultado, div.resumo{
+        width: 50%;
+    }
+
+    .resumo{
+        padding: 20px;
+        justify-content: space-between;
+    }
+}

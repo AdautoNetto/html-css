@@ -32,11 +32,14 @@ body{
 
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 main{
     background-color: var(--branco01);
     width: 100%;
+    max-width: 500px;
 
     display: flex;
     flex-direction: column;
@@ -99,21 +102,103 @@ div.circulo{
     text-align: center;
     width: 70%;
     line-height: 1.5em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
 }
 
 .resumo{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top
-    : 20px;
-    
-    background-color: aqua;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 div.resumo p.sum{
     color: black;
     font-size: 22px;
+    font-weight: 550;
+}
 
+.materias{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.materia{
+    border-radius: 10px;
+    width: 95%;
+    height: 55px;
+    font-size: 19px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+div.materia img{
+    font-size: 30px;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+
+div#reacao{
+    background-color: rgba(255, 0, 0, 0.100);
+}
+
+div#memoria{
+    background-color: rgba(255, 166, 0, 0.100);
+}
+
+div#verbal{
+    background-color: rgba(0, 128, 0, 0.100);
+}
+
+div#visual{
+    background-color: rgba(128, 0, 128, 0.100);
+}
+
+div#reacao p.reaction{
+    color: var(--vermelho);
+    font-weight: 550;
+    margin-right: 30%;
+}
+
+div#memoria p.memory{
+    color: var(--laranja);
+    font-weight: 550;
+    margin-right: 33%;
+}
+
+div#verbal p.verbaly{
+    color: var(--verde);
+    font-weight: 550;
+    margin-right: 38%;
+}
+
+div#visual p.visualy{
+    color: var(--azul01);
+    font-weight: 550;
+    margin-right: 38%;
+}
+
+
+a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--branco01);
+
+    background-color: var(--roxo04);
+    width: 95%;
+    height: 55px;
+    border-radius: 20px;
+    margin-bottom: 30px;
 }
