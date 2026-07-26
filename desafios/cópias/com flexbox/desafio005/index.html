@@ -2,35 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>desafio005</title>
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
+  <main>
+    <picture>
+      <source media="(min-width:768px)" srcset="images/image-product-desktop.jpg">
 
-  Perfume
+      <img src="images/image-product-mobile.jpg" alt="Capa perfume">
+    </picture>
 
-  Gabrielle Essence Eau De Parfum
+    <p class="categoria">Perfume</p>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+    <h1><strong>Gabrielle Essence Eau De Parfum</strong></h1>
 
-  $149.99
-  $169.99
+    <p class="descricao">
+      A floral, solar and voluptuous interpretation composed by Olivier Polge,
+      Perfumer-Creator for the House of CHANEL.
+    </p>
 
-  Add to Cart
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
+    <div class="preco">
+      <p class="atual">$149.99</p>
+      <p class="antigo">$169.99</p>
+    </div>
+
+    <div class="carrinho">
+      <img src="images/icon-cart.svg" alt="carrinho">
+      <p>Add to Cart</p>
+    </div>
+  </main>
 </body>
 </html>
