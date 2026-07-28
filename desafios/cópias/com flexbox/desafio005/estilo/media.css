@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 900px ;
+        height: 100px;
+    }
+
+    picture{
+        
+    }
+
+    div.parte2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

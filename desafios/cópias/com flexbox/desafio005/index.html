@@ -6,32 +6,33 @@
   <title>desafio005</title>
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="estilo/style.css">
+  <link rel="stylesheet" href="estilo/media.css">
 </head>
 <body>
   <main>
     <picture>
-      <source media="(min-width:768px)" srcset="images/image-product-desktop.jpg">
+      <source media="(min-width:600px)" srcset="images/image-product-desktop.jpg">
 
       <img src="images/image-product-mobile.jpg" alt="Capa perfume">
     </picture>
 
-    <p class="categoria">Perfume</p>
-
-    <h1><strong>Gabrielle Essence Eau De Parfum</strong></h1>
-
-    <p class="descricao">
-      A floral, solar and voluptuous interpretation composed by Olivier Polge,
-      Perfumer-Creator for the House of CHANEL.
-    </p>
-
-    <div class="preco">
-      <p class="atual">$149.99</p>
-      <p class="antigo">$169.99</p>
-    </div>
-
-    <div class="carrinho">
-      <img src="images/icon-cart.svg" alt="carrinho">
-      <p>Add to Cart</p>
+    <div class="parte2">
+      <p class="categoria">Perfume</p>
+      <h1><strong>Gabrielle Essence Eau De Parfum</strong></h1>
+      <p class="descricao">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      <div class="preco">
+        <p class="atual">$149.99</p>
+        <del>
+          <p class="antigo">$169.99</p>
+        </del>
+      </div>
+      <div class="carrinho">
+        <img src="images/icon-cart.svg" alt="carrinho">
+        <p>Add to Cart</p>
+      </div>
     </div>
   </main>
 </body>
