@@ -4,13 +4,13 @@
     main{
         display: flex;
         flex-direction: row;
-        width: 900px ;
-        height: 100px;
+        width: 200px;
+        height: 50px;
     }
 
     picture{
         
-    }
+    }   
 
     div.parte2{
         width: 50%;
