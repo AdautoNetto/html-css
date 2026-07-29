@@ -27,10 +27,10 @@ body{
 }
 
 main{
-    width: 95%;
+    width: 440px;
     background-color: var(--branco);
     border-radius: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 
     display:flex ;
     flex-direction: column;
@@ -92,6 +92,7 @@ div.carrinho {
     width: 80%;
     color: var(--branco);
     font-size: 19px;
+    
 
     display: flex;
     justify-content: center;
