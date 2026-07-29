@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root{
+    --azul01: hsl(225, 100%, 94%);
+    --azul02: hsl(245, 75%, 52%);
+    --azul03: hsl(225, 100%, 98%);
+    --cinza: hsl(224, 23%, 55%);
+    --azul04: hsl(223, 47%, 23%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
