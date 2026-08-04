@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root{
+    --Roxo: hsl(300, 43%, 22%);
+    --rosa: hsl(333, 80%, 67%);
+    --cinzaroxo: hsl(303, 10%, 53%);
+    --brancoroxo: hsl(300, 24%, 96%);
+    --branco: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--branco);
+}
