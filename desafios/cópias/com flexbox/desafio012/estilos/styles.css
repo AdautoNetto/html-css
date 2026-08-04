@@ -12,9 +12,107 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     min-height: 100vh;
     background-color: var(--branco);
+}
+
+main{
+    width: 100%;
+    background-color: var(--branco);
+    padding: 50px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+main > h2{
+    color:var(--Roxo) ;
+    text-align: center;
+    font-size: 30px;
+    width: 65%;
+    font-weight: 800;
+    line-height: 1em;
+    max-width: 330px;
+}
+
+.p01{
+    color: var(--cinzaroxo);
+    line-height: 1.5em;
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+}
+
+.divroxo{
+    background-color: var(--brancoroxo);
+    width: 90%;
+    height: 80px;
+    max-width: 350px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.divroxo p{
+    color: var(--Roxo);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.divroxo .imagem{
+    display: flex;
+    gap: 8px;
+}
+
+.caixa{
+    background-color: var(--Roxo);
+    width: 90%;
+    max-width: 350px;
+    border-radius: 10px;
+    color: var(--branco);
+    padding: 35px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.imagem02 img{
+    display: block;
+    border-radius: 50%;
+    width: 55px;
+}
+
+.perfildescrito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+    font-weight: 600;
+}
+
+.adauto{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.trabalho{
+    color: var(--rosa);
+}
+
+.descricao{
+    line-height: 1.5em;
 }
