@@ -32,11 +32,20 @@ main{
     gap: 25px;
 }
 
-main > h2{
+.teste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+
+}
+
+main h2{
     color:var(--Roxo) ;
     text-align: center;
-    font-size: 30px;
-    width: 65%;
+    font-size: 29px;
+    width: 66%;
     font-weight: 800;
     line-height: 1em;
     max-width: 330px;
