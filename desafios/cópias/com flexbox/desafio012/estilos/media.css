@@ -1,22 +1,86 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 700px) {
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-    }  
+@media screen and (min-width: 1050px) {
+
+    body{
+        display: flex;
+        justify-content: center;
+    }
 
     main{
-        width: 750px;
+        padding: 0px;
+        width: 90%;
+        max-width: 1600px;
+        padding: 20px;
 
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 0;
     } 
 
     .teste{
-        flex
+        width: 45%;
+        align-items: flex-start;
+    }
+
+    .fodase{
+        font-size: 45px;
+        text-align: left;
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .p01{
+        text-align: left;
+        font-size: 20px;
+        width: 80%;
+        max-width: 500px;
+    }
+
+    .teste02{
+        width: 50%;
+    }
+
+    .divroxo {
+        flex-direction: row;
+        width: 100%;
+        max-width: 600px;
+        gap: 30px;
+    }
+
+    .divroxo p{
+        font-size: 21px;
+    }
+
+    .divroxo .imagem{
+        font-size: 50px;
+        height: 20px;
+    }
+
+    .teste03{
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+
+    .caixa{
+        max-width: 500px;
+    }
+
+    #roxo02{
+        margin-left: 100px;
+    }
+
+    #roxo03{
+        margin-left: 200px;
+    }
+
+    #caixa02{
+        margin-top: 50px;
+    }
+
+    #caixa03{
+        margin-top: 100px;
     }
 }
-

@@ -59,6 +59,15 @@ main h2{
     max-width: 350px;
 }
 
+.teste02{
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .divroxo{
     background-color: var(--brancoroxo);
     width: 90%;
@@ -82,6 +91,14 @@ main h2{
 .divroxo .imagem{
     display: flex;
     gap: 8px;
+}
+
+.teste03{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .caixa{
