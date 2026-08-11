@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1024px) {
-    
+@media screen and (min-width: 800px) {
+    main{
+        width: 90%;
+        max-width: 800px;
+    }
+
+    .p01, .p02{
+        font-size: 27px;
+    }
+
+    .p03{
+        letter-spacing: 1px;
+        width: 70%;
+    }
+
+    .div02{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
