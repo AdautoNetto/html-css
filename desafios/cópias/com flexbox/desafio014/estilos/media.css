@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width:700px) {
+    body{
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        width: 90%;
+        max-width: 700px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div01{
+        flex: 2;
+         box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.250);
+    }
+
+    .teste{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .div02, .div03{
+       flex: 1;
+       box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.250); 
+    }
+
+    .div02 {
+        border-bottom-left-radius: 10px;
+    }
+
+    .div03 {
+        border-bottom-right-radius: 10px;
+    }
+}
