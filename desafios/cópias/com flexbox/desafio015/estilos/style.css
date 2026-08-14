@@ -29,3 +29,12 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+.paragrafo{
+    color: rgba(0, 0, 0, 0.500);
+    line-height: 1.5em;
+}
+
+.btn{
+    border-radius: 30px;
+}
